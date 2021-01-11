@@ -57,9 +57,10 @@ export default {
     &__name
         font-size 20px
     &__name
-        font-weight 600
+        font-weight 700
     &__cost
         color #B0B0B0
+        font-size 14px
         &--accent
             color var(--app-black)
     &__deliviry

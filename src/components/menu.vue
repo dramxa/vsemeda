@@ -67,10 +67,11 @@ export default {
     padding-left 80px
     border-bottom 1px solid var(--app-border)
     &__item
-        font-size 14px
+        font-size 14px !important
         color var(--app-black) !important
         height 48px !important
         padding 0 18px !important
+        font-weight 400 !important
         &--active
             background var(--app-yellow)
 </style>
