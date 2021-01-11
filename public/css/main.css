@@ -1,0 +1,29 @@
+:root{
+    --app-black: #000000;
+    --app-text-black: #050505;
+    --app-white: #ffffff;
+    --app-disable: #F1F0ED;
+    --app-border: #e5e5e5;
+    --app-gray-disable: #CCCCCC;
+    --app-gray-1: #9E9B98;
+    --app-gray-2: #808080;
+    --app-yellow-disabled: #AF9C3D;
+    --app-yellow: #F8DF4B;
+    --app-dark-yellow: #F3BA40;
+    --app-error: #C04442;
+    --app-gift: #9CE6BF;
+}
+#app{
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* vuetify */
+.v-btn{
+    text-transform: none !important;
+    letter-spacing: normal !important;
+}
+@media (min-width: 1904px){
+    .container {
+        max-width: 1500px !important;
+    }
+}
+/* /vuetify */
